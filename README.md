@@ -26,7 +26,7 @@
 * 城市消費力會影響銷售量
 
 
-<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/trend.png" width="800""/><br/>
+<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/trend.png" width="800"/><br/>
 
 ## Feature Selection
 * **每月商品總銷售量**
@@ -60,7 +60,7 @@
   * 比較加入延遲特徵訓練結果：
                                                                                                              
                                                                                                              
-<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/lag_table.png" width="800""/><br/>
+<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/lag_table.png" width="800"/><br/>
 
 ## Model
 ### XGBoost
@@ -76,7 +76,7 @@
   * 比較參數調整前後的訓練結果：
 
 
-<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/tuning_table.png" width="800""/><br/>
+<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/tuning_table.png" width="800"/><br/>
 
 ## Run
 
