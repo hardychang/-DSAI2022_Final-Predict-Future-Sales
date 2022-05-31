@@ -98,7 +98,7 @@ pip install -r requirements.txt
 ```
 python feature.py
 ```
-由於 feature.py 執行時間較長，可直接下載我們提供的[new_train.pkl]
+由於 feature.py 執行時間較長，可直接下載我們提供的[new_train.pkl](https://drive.google.com/file/d/1d4ftl5UkxkWifC570wUz3M17YrNkManh/view?usp=sharing)
 
 將下載後的檔案存到與 XGBModel.py 的相同路徑下
 
