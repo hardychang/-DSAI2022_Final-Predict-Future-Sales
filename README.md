@@ -70,15 +70,16 @@
   * max_depth，是樹狀模型的深度，增加深度可增加模型複雜度但是容易使模型 overfitting，default=6
   * min_child_weight，是模型中最小子節點權重的總和，在樹進行分區步驟時權重總和小於min_child_weight，則不進行分區， min_child_weight 越大模型越可避免 overfitting，default=1
   * Subsample，避免模型 overfitting
+  * tree_method='gpu_hist'，使用 GPU 版本
 * Model Tuning
   * Grid Search CV 調整 XGBoost 的參數
   * max_depth=9、n_estimators=800、min_child_weight=400、 subsample=0.8 、colsample_bytree=0.8、eta=0.04、seed=40
   * 比較參數調整前後的訓練結果：
 
 
-|               | 調整參數前 | 調整參數後  |
-| ------------- |:---------:| :---------:|
-| Score         |  0.92850  | 0.91807    |
+  * |               | 調整參數前 | 調整參數後  |
+  * | ------------- |:---------:| :---------:|
+  * | Score         |  0.92850  | 0.91807    |
 
 ## Run
 
