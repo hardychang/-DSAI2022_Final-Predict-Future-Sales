@@ -57,6 +57,7 @@
   * 延遲特徵考慮時間前後的關係，可能前 1 個月或前 2 個月和這個月的資料具有關聯性
   * 嘗試加入延遲 1、2、3、6 個月的特徵
   * 比較加入延遲特徵訓練結果：
+![GITHUB](https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/lag_table.png)
 
 
 |               | 未加入延遲特徵 | 加入延遲特徵  |
@@ -75,7 +76,7 @@
   * Grid Search CV 調整 XGBoost 的參數
   * max_depth=9、n_estimators=800、min_child_weight=400、 subsample=0.8 、colsample_bytree=0.8、eta=0.04、seed=40
   * 比較參數調整前後的訓練結果：
-
+![GITHUB](https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/tuning_table.png)
 
   * |               | 調整參數前 | 調整參數後  |
   * | ------------- |:---------:| :---------:|
