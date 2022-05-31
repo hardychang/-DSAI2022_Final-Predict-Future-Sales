@@ -3,9 +3,10 @@
 ## Overview
 ### NCKU DSAI Final Project - Predict Future Sales
 
-[Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/leaderboard)
+**Kaggle:** [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/leaderboard)
 
 根據其提供的每日歷史銷售數據，來為測試集預測每個商店銷售的產品總量。
+
 由於商店和產品列表每個月都會略有變化，因此我們創建一個可以處理此類情況的模型。
 
 ## Data
@@ -91,7 +92,9 @@ pip install -r requirements.txt
 python feature.py
 ```
 由於 feature.py 執行時間較長，可直接下載我們提供的[new_train.pkl]
+
 將下載後的檔案存到與 XGBModel.py 的相同路徑下
+
 接著執行 XGBModel.py 開始訓練 XGBoost 模型，最後得到 submission.csv 上傳至 Kaggle
 ```
 python XGBModel.py
@@ -100,4 +103,5 @@ python XGBModel.py
 [submission.csv](https://github.com/fylin625/DSAI2022_HW1-Electricity-Forcasting/blob/main/submission.csv)
 
 2022/5/30 20:50 Score: 0.90605 
+
 Kaggle 排名為 2995
