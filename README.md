@@ -67,7 +67,7 @@
 * Introduction
   * eta，在每次迭代更新中縮小特徵的權重避免模型 overfitting，default=0.3
   * max_depth，是樹狀模型的深度，增加深度可增加模型複雜度但是容易使模型 overfitting，default=6
-  * min_child_weight，是模型中最小子節點權重的總和，在樹進行分區步驟時權重總和小於min_child_weight，則不進行分區， min_child_weight 越大模型越可避免 overfitting，default=1
+  * min_child_weight，是模型中最小子節點權重的總和，在樹進行分區步驟時權重總和小於 min_child_weight，則不進行分區， min_child_weight 越大模型越可避免 overfitting，default=1
   * Subsample，避免模型 overfitting
   * tree_method='gpu_hist'，使用 GPU 版本
 * Model Tuning
