@@ -109,6 +109,5 @@ python XGBModel.py
 ## Result
 [submission.csv](https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/submission.csv)
 
-2022/5/30 20:50 Score: 0.90605 
-
-Kaggle 排名為 2995
+2022/5/30 20:50 Score: 0.90605，Kaggle 排名：2995
+## [Slides](https://docs.google.com/presentation/d/147nswLz32hbjwfVmo7aonrgVXcVC04X4/edit?usp=sharing&ouid=110596967971996559299&rtpof=true&sd=true)
