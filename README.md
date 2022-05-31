@@ -25,6 +25,7 @@
 * 商品價格可能會影響銷售量
 * 城市消費力會影響銷售量
 
+<img src="https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/trend.png" width="200" alt="趨勢"/><br/>
 ![GITHUB](https://github.com/hardychang/DSAI2022_Final-Predict-Future-Sales/blob/main/trend.png)
 
 ## Feature Selection
